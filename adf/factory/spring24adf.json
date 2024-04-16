@@ -1,0 +1,9 @@
+{
+	"name": "spring24adf",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "820236ba-a0bc-4088-8efb-d81a76a3ab22",
+		"tenantId": "7dda3e23-4623-4021-80f5-a4a00fb068c6"
+	}
+}
