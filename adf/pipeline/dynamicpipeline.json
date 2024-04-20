@@ -46,8 +46,7 @@
 						"referenceName": "AzureSqlTableDynamic",
 						"type": "DatasetReference",
 						"parameters": {
-							"schemaname": "SalesLT",
-							"tablename": "Address"
+							"schemaname": "SalesLT"
 						}
 					}
 				],
