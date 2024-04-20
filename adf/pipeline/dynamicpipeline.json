@@ -46,7 +46,11 @@
 						"referenceName": "AzureSqlTableDynamic",
 						"type": "DatasetReference",
 						"parameters": {
-							"schemaname": "SalesLT"
+							"schemaname": "SalesLT",
+							"tablename": {
+								"value": "@pipeline().parameters.tablename",
+								"type": "Expression"
+							}
 						}
 					}
 				],
@@ -57,12 +61,20 @@
 						"parameters": {
 							"filesystem": "landing",
 							"directory": "incoming",
-							"filename": "Address"
+							"filename": {
+								"value": "@pipeline().parameters.tablename",
+								"type": "Expression"
+							}
 						}
 					}
 				]
 			}
 		],
+		"parameters": {
+			"tablename": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
