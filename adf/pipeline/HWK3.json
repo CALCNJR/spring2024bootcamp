@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "HWK3",
 	"properties": {
 		"activities": [
 			{
@@ -55,11 +55,7 @@
 				"outputs": [
 					{
 						"referenceName": "AzureSqlTableDynamic",
-						"type": "DatasetReference",
-						"parameters": {
-							"schemaname": "SalesLT",
-							"tablename": "MyProduct"
-						}
+						"type": "DatasetReference"
 					}
 				]
 			}
