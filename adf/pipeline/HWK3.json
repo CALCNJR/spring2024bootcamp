@@ -55,7 +55,11 @@
 				"outputs": [
 					{
 						"referenceName": "AzureSqlTableDynamic",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"schemaname": "SalesLT",
+							"tablename": "MyProduct"
+						}
 					}
 				]
 			}
